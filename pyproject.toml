@@ -8,3 +8,4 @@ authors = ["Matthew Gleich <matthewgleich@gmail.com>"]
 python = ">=3.6 <4.0"
 firebase_admin = "^4.2.0"
 stravalib = "^0.10.2"
+PyGithub = "^1.51"
