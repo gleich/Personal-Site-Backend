@@ -8,4 +8,8 @@ authors = ["Matthew Gleich <matthewgleich@gmail.com>"]
 python = ">=3.6 <4.0"
 firebase_admin = "^4.2.0"
 stravalib = "^0.10.2"
-PyGithub = "^1.51"
+requests = "^2.23.0"
+loguru = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.2"
