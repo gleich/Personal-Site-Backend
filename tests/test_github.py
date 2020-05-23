@@ -1,8 +1,8 @@
-from stats.github import contributions
+from stats import github
 
 
 def test_contributions():
     """Test for the contributions function
     """
-    response = contributions()
+    response = github.contributions()
     assert type(response) == type({})
